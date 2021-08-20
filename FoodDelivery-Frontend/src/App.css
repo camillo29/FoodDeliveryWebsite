@@ -1,0 +1,200 @@
+/* Can be harmful */
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+#root {
+    height: 100%;
+    width: 100%;
+}
+/*----------------*/
+
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+.Container {
+    height:100%;
+    width:100%;
+}
+
+.Header {
+    background-color: gold;
+    width: 100%;
+    height: 15%;
+    flex: 1;
+    object-fit: contain;
+}
+
+.Main {
+    background-color: yellow;
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: stretch;
+    position: relative;
+    overflow: scroll;
+    overflow-x: hidden
+}
+
+.Footer {
+    background-color: orangered;
+    height:4%;
+}
+
+.navBar {
+    float: left;
+    height: 100%;
+    width: 15%;
+    background-color: orange;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    object-fit: contain;
+    text-align: left;
+}
+
+.navButton {
+    box-shadow: inset 0px 39px 0px -24px #e67a73;
+    background-color: #e4685d;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 8px 14px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #b23e35;
+    margin-top: 5%;
+}
+
+    .navButton:hover {
+        background-color: #eb675e;
+    }
+
+    .navButton:active {
+        position: relative;
+        top: 1px;
+    }
+
+.Error {
+    color: red;
+}
+
+.Label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+
+.Input {
+    display: inline-block;
+    float: left;
+    margin: 2px;
+}
+
+.NoBulletList {
+    list-style-type: none;
+}
+
+.LeftPanel {
+    float: left;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.RightPanel {
+    float: right;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.Offices {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Office {
+    background-color: khaki;
+    border: solid;
+    border-width: medium;
+    border-color: brown;
+    margin: 5px;
+    text-align: left;
+}
+
+.OfficeWrap {
+    float: right;
+    width: 63%;
+}
+
+.OfficeIcon {
+    max-width: 7%;
+    max-height: 7%;
+}
+
+.Account {
+    background-color: khaki;
+    border: solid;
+    border-width: medium;
+    border-color: brown;
+    border-radius: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+.Dish {
+    background-color: khaki;
+    border: solid;
+    border-width: medium;
+    border-color: brown;
+    margin: 5px;
+}
+
+.Order {
+    background-color: khaki;
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 1%;
+}
+
+.Employee {
+    background-color: khaki;
+    border: solid;
+    border-width: medium;
+    border-color: brown;
+    margin-left: 5%;
+    margin-top:1%;
+    margin-bottom: 5%;
+}
+
+.EmployeeIcon {
+    max-width:7%;
+    max-height: 7%;
+}
+
+.EmployeeLogo {
+   max-width: 60%;
+   max-height:60%;
+   margin-top: 5px;
+}
